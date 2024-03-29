@@ -1,7 +1,7 @@
 # this script will do the following:
 # build confusion matrix for each model
 import pandas as pd
-from buildmatrix import getlistoffiles, getmarkedvalues, getpredictedvalues, buildmulticlassmatrix, definelabels
+from buildmatrix import getlistoffiles, getmarkedvalues, getpredictedvalues, buildmulticlassmatrix, definelabels,buildbinarymatrices
 
 # Your model string
 model = "model1"
@@ -13,3 +13,4 @@ predicted_values=getpredictedvalues(files)
 labels = definelabels(marked_values, predicted_values)
 cm = buildmulticlassmatrix(marked_values, predicted_values, labels)
 print(cm)
+buildbinarymatrices(marked_values, predicted_values, labels)
