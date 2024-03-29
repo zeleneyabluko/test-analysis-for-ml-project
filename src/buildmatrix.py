@@ -42,10 +42,7 @@ def getpredictedvalues(model_files):
 
 
 def buildmatrix(marked_values, predicted_values):
-    # res = np.array(marked_values)
     labels = np.unique(marked_values)
-    print("labels listed:\n")
-    print(labels)
     matrix = confusion_matrix(marked_values, predicted_values, labels=labels)
     matrix_df = pd.DataFrame(matrix, index=labels, columns=labels)
     return matrix_df

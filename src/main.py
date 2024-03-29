@@ -11,6 +11,4 @@ files = getlistoffiles(model)
 marked_values = getmarkedvalues(files)
 predicted_values=getpredictedvalues(files)
 cm = buildmatrix(marked_values, predicted_values)
-
-# Do something with the result if needed
 print(cm)
