@@ -44,9 +44,8 @@ def definelabels(marked_values,  predicted_values):
     labels = np.unique(np.concatenate((marked_values, predicted_values)))
     return labels
 def buildmulticlassmatrix(marked_values, predicted_values, labels):
-
     matrix = confusion_matrix(marked_values, predicted_values, labels=labels)
-    return matrix
+    return pd.DataFrame(matrix, index=labels, columns=labels)
 
 def buildbinarymatrices(multiclass_matrix):
 
