@@ -26,4 +26,14 @@ def getmarkedvalues(model_files):
 
     return marked_values
 
+def getpredictedvalues(model_files):
+    predicted_values = []
+    for file in model_files:
+        path = os.path.join(directory, file)
+        with open(path, "r") as f:
+            predicted_value = json.load(f)['marked_object']
+            predicted_values.append(predicted_value)
+
+    return predicted_values
+
 
