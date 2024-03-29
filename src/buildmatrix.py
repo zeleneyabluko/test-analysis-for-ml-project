@@ -40,11 +40,15 @@ def getpredictedvalues(model_files):
     predicted_values = np.array(predicted_values)
     return predicted_values
 
+def definelabels(marked_values,  predicted_values):
+    labels = np.unique(np.concatenate((marked_values, predicted_values)))
+    return labels
+def buildmulticlassmatrix(marked_values, predicted_values, labels):
 
-def buildmatrix(marked_values, predicted_values):
-    labels = labels = np.unique(np.concatenate((marked_values, predicted_values)))
     matrix = confusion_matrix(marked_values, predicted_values, labels=labels)
-    matrix_df = pd.DataFrame(matrix, index=labels, columns=labels)
-    return matrix_df
+    return matrix
+
+def buildbinarymatrices(multiclass_matrix):
+
 
 
