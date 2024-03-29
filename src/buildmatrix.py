@@ -7,6 +7,7 @@
 import os
 import json
 from sklearn.metrics import confusion_matrix
+import pandas as pd
 import numpy as np
 
 work_dir = os.path.dirname(os.getcwd())
@@ -25,7 +26,7 @@ def getmarkedvalues(model_files):
         with open(path, "r") as f:
             marked_value = json.load(f)['marked_object']
             marked_values.append(marked_value)
-
+    marked_values = np.array(marked_values)
     return marked_values
 
 
@@ -36,12 +37,17 @@ def getpredictedvalues(model_files):
         with open(path, "r") as f:
             predicted_value = json.load(f)['predicted_object']
             predicted_values.append(predicted_value)
-
+    predicted_values = np.array(predicted_values)
     return predicted_values
 
 
 def buildmatrix(marked_values, predicted_values):
-    matrix = confusion_matrix(marked_values, predicted_values)
-    return matrix
+    # res = np.array(marked_values)
+    labels = np.unique(marked_values)
+    print("labels listed:\n")
+    print(labels)
+    matrix = confusion_matrix(marked_values, predicted_values, labels=labels)
+    matrix_df = pd.DataFrame(matrix, index=labels, columns=labels)
+    return matrix_df
 
 
