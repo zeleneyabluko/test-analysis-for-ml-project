@@ -1,7 +1,7 @@
 # this script will do the following:
 # build confusion matrix for each model
 
-from buildmatrix import getlistoffiles, getmarkedvalues, getpredictedvalues
+from buildmatrix import getlistoffiles, getmarkedvalues, getpredictedvalues, buildmatrix
 
 # Your model string
 model = "model1"
@@ -10,6 +10,7 @@ model = "model1"
 files = getlistoffiles(model)
 marked_values = getmarkedvalues(files)
 predicted_values=getpredictedvalues(files)
+cm = buildmatrix(marked_values, predicted_values)
 
 # Do something with the result if needed
-print(predicted_values)
+print(cm)

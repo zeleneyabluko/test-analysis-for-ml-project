@@ -6,6 +6,8 @@
 
 import os
 import json
+from sklearn.metrics import confusion_matrix
+import numpy as np
 
 work_dir = os.path.dirname(os.getcwd())
 logs_dir = 'resources/logs'
@@ -35,5 +37,9 @@ def getpredictedvalues(model_files):
             predicted_values.append(predicted_value)
 
     return predicted_values
+
+def buildmatrix(marked_values, predicted_values):
+    matrix = confusion_matrix(marked_values, predicted_values)
+    return matrix
 
 
