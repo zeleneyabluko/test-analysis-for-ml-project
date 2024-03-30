@@ -1,0 +1,12 @@
+{
+    "image_name": "image_10647",
+    "marked_object": "no_object",
+    "predicted_object": "no_object",
+    "BoundingBoxes": {
+        "x1": 438,
+        "x2": 710,
+        "y1": 631,
+        "y2": 1025
+    },
+    "confidence_score": 0.604370656689864
+}

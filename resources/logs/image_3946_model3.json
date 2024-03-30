@@ -1,0 +1,12 @@
+{
+    "image_name": "image_3946",
+    "marked_object": "radar_station",
+    "predicted_object": "artillery",
+    "BoundingBoxes": {
+        "x1": 141,
+        "x2": 1222,
+        "y1": 648,
+        "y2": 755
+    },
+    "confidence_score": 0.6839162480401219
+}

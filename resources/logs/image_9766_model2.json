@@ -1,0 +1,12 @@
+{
+    "image_name": "image_9766",
+    "marked_object": "air_defence_system",
+    "predicted_object": "air_defence_system",
+    "BoundingBoxes": {
+        "x1": 1299,
+        "x2": 1402,
+        "y1": 405,
+        "y2": 655
+    },
+    "confidence_score": 0.6101523667540573
+}

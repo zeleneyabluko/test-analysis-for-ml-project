@@ -1,0 +1,12 @@
+{
+    "image_name": "image_4910",
+    "marked_object": "warship",
+    "predicted_object": "warship",
+    "BoundingBoxes": {
+        "x1": 876,
+        "x2": 1866,
+        "y1": 577,
+        "y2": 1051
+    },
+    "confidence_score": 0.6508702312779436
+}

@@ -1,0 +1,12 @@
+{
+    "image_name": "image_9014",
+    "marked_object": "armored_vehicle",
+    "predicted_object": "air_defence_system",
+    "BoundingBoxes": {
+        "x1": 91,
+        "x2": 267,
+        "y1": 717,
+        "y2": 953
+    },
+    "confidence_score": 0.6723395508720332
+}

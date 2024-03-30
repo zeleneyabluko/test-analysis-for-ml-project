@@ -1,0 +1,12 @@
+{
+    "image_name": "image_7992",
+    "marked_object": "artillery",
+    "predicted_object": "armored_vehicle",
+    "BoundingBoxes": {
+        "x1": 929,
+        "x2": 1565,
+        "y1": 388,
+        "y2": 569
+    },
+    "confidence_score": 0.7311676206585159
+}

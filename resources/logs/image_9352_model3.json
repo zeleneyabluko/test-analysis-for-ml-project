@@ -1,0 +1,12 @@
+{
+    "image_name": "image_9352",
+    "marked_object": "air_defence_system",
+    "predicted_object": "warship",
+    "BoundingBoxes": {
+        "x1": 519,
+        "x2": 1124,
+        "y1": 776,
+        "y2": 994
+    },
+    "confidence_score": 0.7941642821149986
+}

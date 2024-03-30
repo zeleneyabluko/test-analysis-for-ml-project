@@ -1,0 +1,12 @@
+{
+    "image_name": "image_360",
+    "marked_object": "no_object",
+    "predicted_object": "no_object",
+    "BoundingBoxes": {
+        "x1": 442,
+        "x2": 1030,
+        "y1": 468,
+        "y2": 575
+    },
+    "confidence_score": 0.937228837270162
+}

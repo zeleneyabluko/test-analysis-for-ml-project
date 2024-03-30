@@ -1,0 +1,12 @@
+{
+    "image_name": "image_1003",
+    "marked_object": "armored_vehicle",
+    "predicted_object": "radar_station",
+    "BoundingBoxes": {
+        "x1": 342,
+        "x2": 1601,
+        "y1": 637,
+        "y2": 1002
+    },
+    "confidence_score": 0.9877188377012844
+}

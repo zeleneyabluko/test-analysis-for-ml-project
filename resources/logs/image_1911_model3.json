@@ -1,0 +1,12 @@
+{
+    "image_name": "image_1911",
+    "marked_object": "armored_vehicle",
+    "predicted_object": "warship",
+    "BoundingBoxes": {
+        "x1": 1181,
+        "x2": 1326,
+        "y1": 476,
+        "y2": 616
+    },
+    "confidence_score": 0.6351678667612123
+}

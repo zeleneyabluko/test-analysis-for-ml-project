@@ -1,0 +1,12 @@
+{
+    "image_name": "image_1219",
+    "marked_object": "radar_station",
+    "predicted_object": "radar_station",
+    "BoundingBoxes": {
+        "x1": 1347,
+        "x2": 1790,
+        "y1": 208,
+        "y2": 633
+    },
+    "confidence_score": 0.9998459983308723
+}

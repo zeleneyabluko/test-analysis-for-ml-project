@@ -1,0 +1,12 @@
+{
+    "image_name": "image_454",
+    "marked_object": "warship",
+    "predicted_object": "armored_vehicle",
+    "BoundingBoxes": {
+        "x1": 580,
+        "x2": 842,
+        "y1": 565,
+        "y2": 881
+    },
+    "confidence_score": 0.9198837171866802
+}

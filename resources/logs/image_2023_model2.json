@@ -1,0 +1,12 @@
+{
+    "image_name": "image_2023",
+    "marked_object": "warship",
+    "predicted_object": "warship",
+    "BoundingBoxes": {
+        "x1": 1060,
+        "x2": 1170,
+        "y1": 260,
+        "y2": 653
+    },
+    "confidence_score": 0.7795981077042822
+}

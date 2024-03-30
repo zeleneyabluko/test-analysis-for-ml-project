@@ -1,0 +1,12 @@
+{
+    "image_name": "image_1638",
+    "marked_object": "radar_station",
+    "predicted_object": "warship",
+    "BoundingBoxes": {
+        "x1": 13,
+        "x2": 178,
+        "y1": 188,
+        "y2": 561
+    },
+    "confidence_score": 0.7372431058885598
+}

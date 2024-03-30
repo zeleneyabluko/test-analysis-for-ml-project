@@ -1,0 +1,12 @@
+{
+    "image_name": "image_8123",
+    "marked_object": "radar_station",
+    "predicted_object": "air_defence_system",
+    "BoundingBoxes": {
+        "x1": 944,
+        "x2": 1445,
+        "y1": 635,
+        "y2": 1027
+    },
+    "confidence_score": 0.8412039137795096
+}

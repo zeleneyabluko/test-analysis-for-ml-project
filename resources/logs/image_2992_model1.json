@@ -1,0 +1,12 @@
+{
+    "image_name": "image_2992",
+    "marked_object": "artillery",
+    "predicted_object": "air_defence_system",
+    "BoundingBoxes": {
+        "x1": 738,
+        "x2": 1917,
+        "y1": 164,
+        "y2": 805
+    },
+    "confidence_score": 0.985992903857903
+}
